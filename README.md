@@ -15,3 +15,13 @@ get inside the nginx config folder
 cd /etc/nginx
 ```
 
+for getting the live logs
+```bash
+docker logs -f nginx
+```
+
+nginx config file syntax check
+```bash
+nginx -t
+```
+
